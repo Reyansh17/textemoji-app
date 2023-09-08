@@ -1,13 +1,11 @@
 import React, {useState} from 'react'
 import './Converter.css';
 
-const Converter = () => {
-
+export const Converter = () => {
   const message = localStorage.getItem("name");
   const [type,setText]= useState('');
   const handChange=(e)=>{
     setText(e.target.value);
-
   }
 
   console.log(type);

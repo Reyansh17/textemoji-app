@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./MainPage.css";
 import { useNavigate } from 'react-router-dom';
+
 const MainPage = () => {
     const Navigate= useNavigate();
     const [name,setName]= useState('');
